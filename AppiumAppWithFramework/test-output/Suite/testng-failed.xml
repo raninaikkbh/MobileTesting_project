@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="FaceBookTests.FacebookTest">
+        <methods>
+          <include name="AllFaceBookTest"/>
+          <include name="configureAppium"/>
+          <include name="stopAppiumService"/>
+        </methods>
+      </class> <!-- FaceBookTests.FacebookTest -->
+      <class name="FaceBookTests.signUpTest">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="stopAppiumService"/>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- FaceBookTests.signUpTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
